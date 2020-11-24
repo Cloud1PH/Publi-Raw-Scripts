@@ -5,6 +5,7 @@
           sudo systemctl status snap.amazon-ssm-agent.amazon-ssm-agent.service
           curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
           sudo apt -y install nodejs
+          sudo mkdir /home/ubuntu
           cd /home/ubuntu
           git clone https://github.com/OWASP/NodeGoat.git
           cd NodeGoat/
