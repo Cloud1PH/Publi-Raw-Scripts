@@ -20,4 +20,5 @@ cat <<EOF >trend_app_protect.json
 "secret":"90039018-7866-4c96-8a60-6000a5f9ec58"
 }
 EOF
-sed -i "2 a require('trend_app_protect');" server.jsnpm start
+sed -i "2 a require('trend_app_protect');" server.js
+npm start
