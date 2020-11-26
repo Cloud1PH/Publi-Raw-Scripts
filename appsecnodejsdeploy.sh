@@ -1,8 +1,5 @@
 #!/bin/bash
 sudo apt update
-sudo snap install amazon-ssm-agent --classic
-sudo systemctl start snap.amazon-ssm-agent.amazon-ssm-agent.service
-sudo systemctl status snap.amazon-ssm-agent.amazon-ssm-agent.service
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt -y install nodejs
 git clone https://github.com/OWASP/NodeGoat.git
